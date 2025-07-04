@@ -1,0 +1,27 @@
+{
+  "name": "whatsapp-medieval-ai-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp médiéval avec IA qui envoie des images",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": ["whatsapp", "bot", "medieval", "ai", "qr-code"],
+  "author": "Medieval AI Bot",
+  "license": "MIT",
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode-terminal": "^0.12.0",
+    "axios": "^1.6.0",
+    "canvas": "^2.11.2",
+    "openai": "^4.20.0",
+    "fs-extra": "^11.1.1",
+    "path": "^0.12.7",
+    "moment": "^2.29.4",
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
